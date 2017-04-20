@@ -1,0 +1,46 @@
+/* Index.php*/
+html,body{
+background:#fffff;
+font-family:lucida console;
+}
+#Login{
+border:2px solid #000000;
+width:300px;
+height:150px;
+font-family:lucida console;
+
+}
+#title{
+font-size:20px;
+background:#FF4500;
+padding-top:10px;
+padding-bottom:2px;
+text-align:center;
+border-bottom:1px solid #0080ff;
+}
+#form{
+text-align:center;
+}
+#txt{
+border:1px solid #000000;
+margin-top:3px;
+margin-left:10px;
+}
+
+#button{
+margin-top:5px;
+padding:3px;
+border:1px solid #0080ff;
+background:#ccc;
+width:100px;
+color:#000000;
+}
+#button:hover{
+margin-top:5px;
+padding:3px;
+border:1px solid #0080ff;
+background:#ededed;
+width:100px;
+color:#444444;
+}
+
