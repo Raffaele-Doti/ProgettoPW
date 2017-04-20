@@ -3,12 +3,11 @@ background:#fffff;
 font-family:lucida console;
 
 }
-
 #Login{
 border:2px solid #000000;
 width:300px;
-margin-top:350px;
-margin-left:800px;
+height:150px;
+
 font-family:lucida console;
 
 }
@@ -31,8 +30,7 @@ margin-left:10px;
 
 #button{
 margin-top:5px;
-margin-left:100px;
-margin-bottom:5px;
+
 padding:3px;
 border:1px solid #0080ff;
 background:#ccc;
@@ -41,13 +39,11 @@ color:#000000;
 }
 #button:hover{
 margin-top:5px;
-margin-left:100px;
-margin-bottom:5px;
+
 padding:3px;
 border:1px solid #0080ff;
 background:#ededed;
 width:100px;
 color:#444444;
 }
-
 
