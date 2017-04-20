@@ -1,57 +1,21 @@
-<!DOCTYPE html>
-<html lang="it">
+<html>
   <head>
-    <title>Login</title>
-    <meta http-equiv="X-UA-Compatible" content= "Chrome" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content="Login">
-    <meta name="keywords" content="html, unicam">
-    <meta name="author" content="ivan">
-
-    <style> 
-      label { 
-        display: inline-block; 
-        text-align:left; 
-        width:100px; 
-        padding: 10px 0; 
-      }
-
-      fieldset{
-        border: none;
-      } 
-
-      legend{
-        text-align: center;
-        font-size: large;
-        font-weight: bold;
+  <link rel="stylesheet" href="theme.css">
         
-      }
-
-      input{
-        font-size: medium;
-      }
-</style> 
- 
-    
+  <title>Login</title>
   </head>
-
-  <body>
-     <form action="http://www.google.com/" method="post" style="text-align:center">
-      <fieldset>
-        <legend>Effettua il login!</legend>
-        <label for="e-mail">E-Mail</label>
-        <input type="text" name="e-mail" id="e-mail" /> <br>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" />
-      </fieldset>
+  <body background="C:\Users\Gagliard\Desktop\Simple Login\sfondo progetto finale.jpg">
+  <center><div id="Login">
+       <div id="title"
+        <p>Login</p>
+       </div>
+       <form id="form" action="accesso.php" method="post">
+       Username:<input id="txt" type="text" name="username"><br />
+       Password:<input id="txt" type="password" name="pw"><br />
+       <hr>
+       <input type="submit" id="button" value="Login">
+       </form>
+       </div></center>
       
-      <fieldset>
-        <button type="button">
-          <strong>Login</strong>
-        </button>
-      </fieldset>
-    </form>
-    
   </body>
 </html>
