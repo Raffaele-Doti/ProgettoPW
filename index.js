@@ -8,7 +8,7 @@ var STUDENTS_COLLECTION = "students";
 var app = express();
 app.use(bodyParser.json());
 
-var distDir = __dirname + "/app/";
+var distDir = __dirname + "/App/";
 app.use(express.static(distDir));
 
 // Initialize the app.
